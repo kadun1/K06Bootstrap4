@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B11NaviBar.html</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <!-- 
+    fixed-top
+        : 네비바를 페이지 상단에 고정시켜 스크롤해도
+        움직이지 않도록 설정한다.
+ -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="./images/bird.jpg" alt="Logo" style="width:40px;">
+    </a>
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">활성화링크</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link1</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="#">Link2(드롭다운)</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Link 1</a>
+          <a class="dropdown-item" href="#">Link 2</a>
+          <a class="dropdown-item" href="#">Link 3</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">비활성화링크</a>
+      </li>
+    </ul>
+
+    <form class="form-inline" action="/action_page.php">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-success" type="submit">Search</button>
+    </form>
+  </nav>
+
+  <div class="container">
+    <h2>아코디언 구현하기</h2>
+    <div id="accordion">
+
+      <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#collapseOne">
+            Collapsible Group Item #1
+          </a>
+        </div>
+        <div id="collapseOne" class="collapse show" data-parent="#accordion">
+          <div class="card-body">
+            얼음이 시들어 능히 기쁘며, 피다. 위하여, 피가 이상이 것이다. 눈에 얼마나 품었기 몸이 살았으며, 이상이 것이다. 청춘이 이상의 거친 이것이다. 방지하는 심장은 싹이 대중을 부패뿐이다.
+            청춘에서만 속에서 천하를 아름다우냐? 있음으로써 보이는 어디 내는 보라. 풀이 얼마나 현저하게 때에, 끓는 피고 있다. 청춘이 사라지지 따뜻한 놀이 되려니와, 운다. 몸이 우리 장식하는
+            방황하였으며, 우리의 하여도 피는 있는가? 사랑의 굳세게 것이 얼마나 노래하며 군영과 피에 것이다.
+            <br><br>
+            그림자는 길을 평화스러운 원질이 같은 스며들어 사는가 듣는다. 옷을 만천하의 커다란 것이다. 용기가 피는 품었기 소금이라 뛰노는 피고, 사막이다. 싹이 공자는 못하다 황금시대를 천지는 자신과
+            예수는 얼음에 물방아 말이다. 그것을 인간의 미묘한 어디 방황하여도, 황금시대의 뭇 싹이 아니다. 청춘의 인생에 위하여 공자는 물방아 커다란 피다. 들어 얼마나 우리의 예수는 붙잡아 천하를
+            봄바람이다. 자신과 피어나는 실로 되려니와, 주는 사라지지 인간의 것이다. 같으며, 것이 보내는 평화스러운 위하여서. 몸이 보내는 품에 불어 인생에 보이는 꽃이 얼마나 것이다.
+            <br><br>
+            넣는 남는 이 속에 이것은 두손을 인간에 아름다우냐? 내는 같이, 꽃 있을 있으며, 날카로우나 철환하였는가? 천하를 하는 보이는 못할 피는 같이 가지에 인생을 있으랴? 군영과 몸이 있는 별과
+            주며, 창공에 거선의 동력은 것이다. 품고 인생에 그들은 이상을 끝까지 있는가? 시들어 새 옷을 우리 품에 청춘 않는 것이다. 뭇 이상, 피어나는 물방아 그들의 작고 아름다우냐? 청춘을 불어
+            그러므로 이것이다. 곧 공자는 방지하는 어디 뛰노는 이 평화스러운 청춘의 고동을 이것이다. 역사를 공자는 풍부하게 밥을 청춘 없으면 쓸쓸하랴? 하여도 그들은 소담스러운 가는 이 힘있다.
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+            Collapsible Group Item #2
+          </a>
+        </div>
+        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            애기 가을로 내일 벌써 차 까닭입니다. 별을 별 애기 노새, 다 봄이 까닭입니다. 아스라히 별 까닭이요, 아름다운 봄이 파란 추억과 패, 봅니다.
+            <br><br>
+            하나에 별빛이 나는 까닭입니다. 라이너 잔디가 이름을 까닭입니다. 하나에 이름과, 오는 나는 아무 사람들의 멀리 별 까닭입니다. 하나 내 내일 헤일 오면 계십니다.
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+            Collapsible Group Item #3
+          </a>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            이런 가을로 시인의 가득 이름자를 어머님, 이름과 봅니다. 오는 이웃 책상을 패, 남은 계십니다. 책상을 나의 이런 동경과 써 말 봅니다.
+            <br><br>
+            이름과 무성할 프랑시스 않은 새겨지는 오는 아이들의 있습니다. 이름을 그러나 이네들은 보고, 버리었습니다. 언덕 사랑과 다 어머님, 오면 듯합니다. 별 가슴속에 걱정도 언덕 봅니다.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
