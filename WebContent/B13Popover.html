@@ -9,12 +9,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <script>
         /*
-        jQeury를 페이지에서 사용하기위해 Core파일은 CDN으로 삽입하고
+        jQuery를 페이지에서 사용하기위해 Core파일은 CDN으로 삽입하고
         해당 문서의 로딩이 끝난 직후 jQuery를 사용할수 있도록 선언하는
-        문장이다. 여기서 사용하는 $는 jQuery를 대체하는 기호이다.
+        문장이다. 여기서 사용하는 $는 jQuery를 대체하는 기호이다. 
     */
         $(document).ready(function () {
             //툴팁
@@ -23,7 +23,7 @@
             //팝오버
             $('[data-toggle="popover"]').popover();
 
-            //토스트 - 버튼  클릭시 보여짐
+            //토스트 - 버튼 클릭시 보여짐
             $("#myBtn").click(function () {
                 $('.toast').toast('show');
             });
@@ -37,18 +37,18 @@
 <body>
     <div class="container">
         <h3>Tooltip Example</h3>
-        <a href="#" data-toggle="tooltip" title="Tooltip이 뜨네요">마우스를 올려보세욤.</a>
+        <a href="#" data-toggle="tooltip" title="Tooltip이 뜨네요..!!">마우스를 올려보세욤.</a>
 
         <h3>Tooltip Example</h3>
-        <p>The data-placement attribute specifies the tooltip position.</p>
+        <p>tooltip이 뜨는 위치를 설정할 수 있다. </p>
         <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!">Top</a>
         <a href="#" data-toggle="tooltip" data-placement="bottom" title="Hooray!">Bottom</a>
         <a href="#" data-toggle="tooltip" data-placement="left" title="Hooray!">Left</a>
         <a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">Right</a>
 
+
         <h3>Popover Example</h3>
-        <a href="#" data-toggle="popover" title="Popover 제목입니다." data-content="팝오버 내용이 들어갑니다.">Toggle
-            popover</a>
+        <a href="#" data-toggle="popover" title="Popover제목입니다." data-content="팝오버의 내용이 들어갑니다.">Toggle popover</a>
 
         <br>
         <a href="#" title="Header" data-toggle="popover" data-placement="top" data-content="Content">Click-top</a>
@@ -57,9 +57,10 @@
         <a href="#" title="Header" data-toggle="popover" data-placement="right" data-content="Content">Click-right</a>
 
         <br>
+
         <h2>팝오버를 클릭하면 닫히는효과</h2>
         <a href="#" title="Dismissible popover" data-toggle="popover" data-trigger="focus"
-            data-content="날 누르면 닫혀욤...!!!">Click me</a>
+            data-content="날 누르면 닫혀욤..!!">Click me</a>
 
 
         <h2>토스트</h2>
@@ -75,6 +76,8 @@
             </div>
         </div>
 
+
+
         <div class="toast2" data-autohide="false">
             <div class="toast-header">
                 <strong class="mr-auto text-primary">Toast Header</strong>
@@ -85,6 +88,8 @@
                 Some text inside the toast body
             </div>
         </div>
+
+
     </div>
 </body>
 

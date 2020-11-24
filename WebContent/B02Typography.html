@@ -1,72 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-<!-- 
-    뷰포트(Viewport)
-    width=device-width
-        : 단말기(모바일장치)의 화면폭에 따라 페이지의 가로폭을
-        재설정하게 해준다. 디바이스에 따라 스케일이 달라지게 되는데
-        이를 100%스케일에서 CSS픽셀들로 계산된 화면의 폭을 의미한다.
-    initial-scale=1.0
-        : 페이지가 처음 브라우저에 로딩된 초기 줌 레벨을 지정한다.
-        즉 초기확대값을 설정하게된다.
- -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>B02Typography.html</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-<div class="container">
-    <h2>Typography(텍스트효과)</h2>
-    
-    <h2>h2 heading <small>h2의 작은제목</small></h2>
-    <h3>h3 heading <small>h3의 작은제목</small></h3>
+    <div class="container">
+        <h2>Typography(텍스트효과)</h2>
 
-    <h1>Highlight Text</h1>
-    <p>Use the mark element to <mark>형광펜효과</mark></p>
-
-    <h1>Abbreviations</h1>
-  <p>The abbr element is used to mark up an abbreviation or acronym:</p>
-  <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+        <h2>h2 heading <small>h2의 작은제목</small></h2>
+        <h3>h3 heading <small>h3의 작은제목</small></h3>
 
 
-  <h1>Description Lists - dl/dt/dd 태그의 효과</h1>    
-  <p>The dl element indicates a description list:</p>
-  <dl>
-    <dt>Coffee</dt>
-    <dd>- black hot drink</dd>
-    <dt>타이틀</dt>
-    <dd>- 설명구문이 삽입됨.</dd>
-  </dl>     
+        <h1>Highlight Text</h1>
+        <p>Use the mark element to <mark>형광펜효과</mark> text.</p>
 
-  <h1>Keyboard Inputs</h1>
-  <p>문자열을 키보드와 같이 표현함. 단축키 표현에 유용함.</p>
-  <p>Use <kbd>ctrl + p</kbd> to open the Print dialog box.</p>
 
-  <h2>pre태그 적용하기</h2>
-  <p>
-      pre태그는 Text를 편집한 그대로 브라우저에 출력된다.
-  </p>
-  <pre>
-    국내 신종 코로나바이러스 감염증(코로나19) 확산세가
-    점점 거세지는 양상을 보이면서 전국 곳곳에서 확진자가 나오고 있다.
-    특히 직장, 모임, 수영장, 학교 등 일상 공간을 고리로 한 집단감염이 전방위로 확산하고 있어
-    정부의 방역 대응에 비상이 걸렸다.
-    18일 중앙방역대책본부(방대본)에 따르면 서울 도봉구의 한 의류업 작업장과 관련해
-    지난 14일 첫 환자가 발생한 이후 14명이 추가로 양성 판정을 받아 누적 확진자는 15명이다.
-    이 가운데 작업장 종사자가 3명이고, 가족 및 지인이 8명, 지인의 가족·동료가 4명이다.
 
-    <h2>Typography 정렬하기</h2>
-    <p class="text-left">Left-aligned text.</p>
-    <p class="text-right">Right-aligned text.</p>      
-    <p class="text-center">Center-aligned text.</p>
-    <p class="text-justify">Justified text. Justified text. Justified text. Justified text. Justified text. Justified text.</p>      
+        <h1>Abbreviations</h1>
+        <p>The abbr element is used to mark up an abbreviation or acronym:</p>
+        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
 
-  </pre>
-</div>
+
+        <h1>Description Lists - dl/dt/dd 태그의 효과</h1>
+        <p>The dl element indicates a description list:</p>
+        <dl>
+            <dt>Coffee</dt>
+            <dd>- black hot drink</dd>
+            <dt>타이틀</dt>
+            <dd>- 설명구문이 삽입됨.</dd>
+        </dl>
+
+
+
+        <h1>Keyboard Inputs</h1>
+        <p>문자열을 키보드와 같이 표현함. 단축키 표현에 유용함.</p>
+        <p>Use <kbd>ctrl + p</kbd> to open the Print dialog box.</p>
+
+
+        <h2>pre태그 적용하기</h2>
+        <p>
+            pre태그는 Text를 편집한 그대로 브라우저에 출력된다.
+        </p>
+        <pre>
+    한국형 스타워즈 기술부터 뜨거운 사막을  
+거뜬히 달리는 전차까지 '미래형 무기체계'가 
+한 자리에 뭉쳤다.            인공지능과 드론, 로봇 등 4차 
+산업혁명 
+기술을 접목한           선진 무기들을 일반인들이 
+한번에 볼 수 있는 좋은 기회다.
+</pre>
+
+
+        <h2>Typography 정렬하기</h2>
+        <p class="text-left">Left-aligned text.</p>
+        <p class="text-right">Right-aligned text.</p>
+        <p class="text-center">Center-aligned text.</p>
+        <p class="text-justify">Justified text. Justified text. Justified text. Justified text. Justified text.
+            Justified text.</p>
+        <p class="text-nowrap">No wrap text. No wrap text. No wrap text. No wrap text.</p>
+        <p><strong>Tip:</strong> Try to resize the browser window to see the behaviour of justify and nowrap.</p>
+
+
+    </div>
 </body>
+
 </html>
